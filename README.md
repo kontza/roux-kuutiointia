@@ -1,22 +1,7 @@
 # Alkusanat
 Omia muistiipanoja Roux-menetelmään liittyen.
 
-<style>
-.rp160 { width: 160px; height: 180px; }
-.rp170 { width: 170px; height: 203px; }
-.rp250 { width: 250px; height: 299px; }
-.rp440 { width: 440px; height: 499px; }
-.left { float: left; }
-</style>
-
-<script>
-    ROOFPIG_CONF_P1 = "colors=cube:white|hover=1.8";
-    ROOFPIG_CONF_F4 = "solved=UR-|colors=F:b B:g U:r D:o R:w L:y c:#666|colored=U UL-";
-    ROOFPIG_CONF_F5 = "solved=U- |colors=F:b B:g U:r D:o R:w L:y";
-</script>
-
-<h1>RoofPig sample cubes.</h1>
-<h3>Official release version</h3>
+# RoofPig sample cubes
 
 <body>
 <div class="roofpig rp250 left" data-config="base=P1|solved=UFR*|tweaks=XxX:UFR BBB:UBR|flags=showalg|alg=D'+D> R>+R' D R' D' R2|algdisplay=fancy2s Z"></div>
@@ -42,6 +27,3 @@ Omia muistiipanoja Roux-menetelmään liittyen.
     </tr>
   </table>
 </div>
-
-<script src="jquery-3.1.1.min.js"></script>
-<script src="roofpig_and_three.min.js"></script>
