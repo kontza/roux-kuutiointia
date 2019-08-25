@@ -84,36 +84,30 @@ Neljännessä vaiheessa asemoidaan ja käännetään kuusi viimeistä reunapalaa
     <div class="roofpig algorithm-visual" data-config="solved=*|tweaks=U:Uf F:uF D:Df F:dF|setupmoves=M' U2 M|alg=M' U2 M"></div>
     <div class="algorithm">M' U2 M</div>
 </div>
+<div class="spacer"></div>
 
 ## 4B - UL ja UR paikoilleen
 Laitetaan UL ja UR oikeille paikoilleen säilyttäen ne oikein päin. Tämän vaiheen jälkeen vasemman ja oikean sivun pitäisi olla täysin valmiita. Tässä pyritään saamaan UL (sinikeltainen) ja UR (vihreäkeltainen) paikoilleen käyttämällä edellisen 4A-vaiheessa esitettyä `M' U2 M'` -liikesarjaa. Idea on, että UL on alhaalla edessä ja UR on alhaalla takana, samaan aikaan kun R-sivun yläreuna on edessä ja L-sivun yläreuna on takana. Tällöin UL ja UR saadaan paikoilleen `M2`-liikkeellä.
 
 ## 4C - Viimeiset reunat ja keskustat
 Tässä alivaiheessa ratkaistaan reunat ja keskustat M-viipaleessa käyttäen pelkästään M- ja U2-liikkeitä. Kian esittää tähän neljä eri vaihtoehtoa, miten palat voivat olla: _bars_, _columns_, _dots_ ja _cycles_.
+- _Bars_: Ylhäällä ja alhaalla on valmiit suorat, väreinä siis keltainen ja valkoinen.
+- _Columns_: Tämä on kuten edellinen tapaus. Erona on se, että valmiina ovat punainen ja oranssi suora.
+- _Dots_: Tässä alivaiheessa kuutio on muuten ratkaistu, mutta keskilinjan keskipalat eivät ole kohdallaan.
+- _Cycles_: TBD. Jos tässä vaiheessa UF, UB ja DB ovät väärin, on ratkaisuna `M U2 M'`.
 
-### Bars
-Ylhäällä ja alhaalla on valmiit suorat, väreinä siis keltainen ja valkoinen.
 <div class="algorithm-container">
     <div class="algorithm">Bars</div>
     <div class="roofpig algorithm-visual" data-config="solved=L R|tweaks=L:L R:R|alg=M2 U2 M2 U2"></div>
     <div class="algorithm">M2 U2 M2 U2</div>
 </div>
-
-### Columns
-Tämä on kuten edellinen tapaus. Erona on se, että valmiina ovat punainen ja oranssi suora.
 <div class="algorithm-container">
     <div class="algorithm">Columns</div>
     <div class="roofpig algorithm-visual" data-config="solved=L R|tweaks=L:L R:R|alg=M' U2 M2 U2 M'"></div>
     <div class="algorithm">M' U2 M2 U2 M'</div>
 </div>
-
-### Dots
-Tässä alivaiheessa kuutio on muuten ratkaistu, mutta keskilinjan keskipalat eivät ole kohdallaan.
 <div class="algorithm-container">
     <div class="algorithm">Dots</div>
     <div class="roofpig algorithm-visual" data-config="solved=L R|tweaks=L:L R:R|alg=E2 M E2 M"></div>
     <div class="algorithm">E2 M E2 M</div>
 </div>
-
-### Cycles
-TBD. Jos tässä vaiheessa UF, UB ja DB ovät väärin, on ratkaisuna `M U2 M'`.
