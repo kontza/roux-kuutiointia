@@ -1,0 +1,66 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.cube-box {
+    width: 125px;
+    height: 163px;
+    text-align: center;
+    font-weight: 700;
+    padding-bottom: 25px;
+    display: inline-block;
+}
+
+.algorithm-column-container {
+    columns: 4 125px;
+}
+
+.algorithm-column {
+    border: 2px solid gray;
+    /* -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; */
+}
+
+.algorithm {
+    text-align: center;
+    font-weight: 700 !important;
+    font-family: sans-serif !important;
+}
+
+.algorithm-visual {
+    width: 125px !important;
+    height: 150px !important;
+    border: none !important;
+}
+
+.spacer {
+    height: 1em !important;
+}
+
+.table-cell {
+    display: table-cell;
+}
+
+.three-lines {
+    height: 184px !important;
+}
+
+.four-lines {
+    height: 205px !important;
+}
+
+.five-lines {
+    height: 226px !important;
+}
+
+.six-lines {
+    height: 247px !important;
+}
