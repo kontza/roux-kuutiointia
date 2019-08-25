@@ -22,7 +22,7 @@ Roux-menetelmässä kolmannessa vaiheessa laitetaan yläkerroksen kulmapalot oik
 </div>
 <div class="algorithm-container">
     <div class="algorithm">Pi - Bruno</div>
-    <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=F R U R' U' F'"></div>
+    <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=F R U R' U' R U R' U' F'"></div>
     <div class="algorithm">F (R U R' U')x2 F'</div>
 </div>
 <div class="algorithm-container">
