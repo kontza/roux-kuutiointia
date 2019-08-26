@@ -25,7 +25,8 @@
 
 <body>
     <div id="header">
-        <div class="scramble">Sekoite:</div><div id="scramble" class="scramble" style="font-style:italic"></div>
+        <div class="scramble">Sekoite:</div>
+        <div id="scramble" class="scramble" style="font-style:italic"></div>
     </div><!-- end header -->
 
     <div class="wrapper">
@@ -71,8 +72,10 @@
             window.__LATEST_SCRAMBLE__ = scrambo.get(1);
             $("#scramble").text(window.__LATEST_SCRAMBLE__);
             $("#scramble-algorithm").text(window.__LATEST_SCRAMBLE__);
-            CubeAnimation.create_in_dom('#scramble-algorithm-visual', "alg="+window.__LATEST_SCRAMBLE__, "class='roofpig algorithm-visual'");
-            };
+            $("#scramble-algorithm-visual").empty();
+            CubeAnimation.create_in_dom('#scramble-algorithm-visual', "alg=" + window.__LATEST_SCRAMBLE__,
+                "class='roofpig algorithm-visual'");
+        };
         $(document).ready(function () {
             createNewScramble();
         });
