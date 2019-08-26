@@ -29,10 +29,12 @@
 .scramble {
     vertical-align: top;
     margin-left: 4px;
+    margin-top: 4px;
     padding-left: 4px;
     display: table-cell;
 }
 
 #header {
-    margin-top: 4px !important;
+    margin-top: 0px !important;
+    height: 42px !important;
 }
