@@ -1,5 +1,6 @@
 # Alkusanat
 Omia muistiipanoja Roux-menetelmään liittyen. Pohjana Kian Mansourin nelivaiheinen ohje Roux-menetelmästä aloittelijoille.
+_Vinkki:_ klikkaa/kosketa sivun yläreunan sekoitetta, jolloin se päivittyy.
 
 # Kaksi ensimmäistä vaihetta
 Vasemmalle tehdään 1x2x3 lohko. Sininen vasemmalle, punainen eteen. Oikealle tehdään toinen 1x2x3 lohko. Edellistä väriesimerkkiä seuraten, vihreä tulee nyt oikealle.<br>

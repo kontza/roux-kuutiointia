@@ -25,10 +25,7 @@
 
 <body>
     <div id="header">
-        <nav>
-            <li id="scramble" class="fork"><a>Arvo uusi</a></li>
-        </nav>
-        <div id="result"></div>
+        <div class="scramble">Sekoite:</div><div id="scramble" class="scramble"></div>
     </div><!-- end header -->
 
     <div class="wrapper">
@@ -72,7 +69,7 @@
         var createNewScramble = function () {
             var scrambo = new Scrambo();
             window.__LATEST_SCRAMBLE__ = scrambo.get(1);
-            $("#result").text(window.__LATEST_SCRAMBLE__);
+            $("#scramble").text(window.__LATEST_SCRAMBLE__);
             $("#scramble-algorithm").text(window.__LATEST_SCRAMBLE__);
             CubeAnimation.create_in_dom('#scramble-algorithm-visual', "alg="+window.__LATEST_SCRAMBLE__, "class='roofpig algorithm-visual'");
             };
