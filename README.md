@@ -111,3 +111,11 @@ Tässä alivaiheessa ratkaistaan reunat ja keskustat M-viipaleessa käyttäen pe
     <div class="roofpig algorithm-visual" data-config="solved=L R|tweaks=L:L R:R|alg=E2 M E2 M"></div>
     <div class="algorithm">E2 M E2 M</div>
 </div>
+
+<div class="spacer"></div>
+# Sekoite
+<div class="algorithm-container">
+    <div class="algorithm">Sekoite</div>
+    <div id="scramble-algorithm-visual"></div>
+    <div id="scramble-algorithm" class="algorithm"></div>
+</div>
