@@ -65,7 +65,7 @@ Roux-menetelmässä kolmannessa vaiheessa laitetaan yläkerroksen kulmapalot oik
 <div class="algorithm-container">
     <div class="algorithm">Y-Perm<br>(ULB <-> URF)</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=URF ULF URB ULB|alg=F R U' R' U' R U R' F' R U R' U' R' F R F'"></div>
-    <div class="algorithm">F R U' R' U' R<br>U R' F' R U R'<br>U' R' F R F'</div>
+    <div class="algorithm">F R U' R' U'<br>R U R' F'<br>R U R' U'<br>R' F R F'</div>
 </div>
 
 <div class="spacer"></div>
