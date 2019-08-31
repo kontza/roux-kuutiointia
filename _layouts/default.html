@@ -68,6 +68,7 @@
     <script>
         var createNewScramble = function () {
             var scrambo = new Scrambo();
+scrambo.length(25);
             window.__LATEST_SCRAMBLE__ = scrambo.get(1);
             $("#scramble").text(window.__LATEST_SCRAMBLE__);
             $("#scramble-algorithm").text(window.__LATEST_SCRAMBLE__);
