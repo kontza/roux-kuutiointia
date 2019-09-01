@@ -67,9 +67,7 @@
     <script src="roofpig_and_three.min.js"></script>
     <script>
         var createNewScramble = function () {
-            var scrambo = new Scrambo();
-scrambo.length(25);
-            window.__LATEST_SCRAMBLE__ = scrambo.get(1);
+            window.__LATEST_SCRAMBLE__ = new Scrambo().seed(new Date().getTime()).get(1)[0];
             $("#scramble").text(window.__LATEST_SCRAMBLE__);
             $("#scramble-algorithm").text(window.__LATEST_SCRAMBLE__);
             $("#scramble-algorithm-visual").empty();
