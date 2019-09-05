@@ -19,53 +19,53 @@ Roux-menetelmässä kolmannessa vaiheessa laitetaan yläkerroksen kulmapalot oik
 <div class="algorithm-container">
     <div class="algorithm">U - Headlights</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=F R U R' U' F'"></div>
-    <div class="algorithm">F (R U R' U') F'</div>
+    <div class="algorithm">F <div class="sexy keep-inline">R U R' U'</div> F'</div>
 </div>
 <div class="algorithm-container">
     <div class="algorithm">Pi - Bruno</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=F R U R' U' R U R' U' F'"></div>
-    <div class="algorithm">F (R U R' U')x2 F'</div>
+    <div class="algorithm">F <div class="sexy keep-inline">(R U R' U')x2</div> F'</div>
 </div>
 <div class="algorithm-container">
     <div class="algorithm">H - Double Headlights</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=F R U R' U' R U R' U' R U R' U' F'"></div>
-    <div class="algorithm">F (R U R' U')x3 F'</div>
+    <div class="algorithm">F <div class="sexy keep-inline">(R U R' U')x2</div> F'</div>
 </div>
 
 <div class="algorithm-container">
     <div class="algorithm">L-case - Bowtie</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=R U2 R' U' R U R' U' R U R' U' R U' R'"></div>
-    <div class="algorithm">R U2 R' U'<br>(R U R' U')x2<br>R U' R'</div>
+    <div class="algorithm"><div class="r-u2-primed">R U2 R' U'</div><div class="sexy">(R U R' U')x2</div>R U' R'</div>
 </div>
 
 <div class="algorithm-container">
     <div class="algorithm">T - Blinkers</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=R U R' U' R' F R F'"></div>
-    <div class="algorithm">(R U R' U')<br>R' F R F'</div>
+    <div class="algorithm"><div class="sexy">R U R' U'</div><div class="sledgehammer">R' F R F'</div></div>
 </div>
 
 <div class="algorithm-container">
     <div class="algorithm">Sune</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=R U R' U R U2 R'"></div>
-    <div class="algorithm">R U R' U R U2 R'</div>
+    <div class="algorithm">R U R' U<br>R U2 R'</div>
 </div>
 
 <div class="algorithm-container">
     <div class="algorithm">Anti-Sune</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=R' U' R U' R' U2 R"></div>
-    <div class="algorithm">R' U' R U' R' U2 R</div>
+    <div class="algorithm">R' U' R U'<br>R' U2 R</div>
 </div>
 
 <div class="algorithm-container">
     <div class="algorithm">J-Perm<br>(URB <-> URF)</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=URF ULF URB ULB|alg=R U2 R' U' R U2 L' U R' U' L"></div>
-    <div class="algorithm">R U2 R' U'<br>R U2 L' U<br>R' U' L</div>
+    <div class="algorithm"><div class="r-u2-primed">R U2 R' U'</div>R U2 L' U<br>R' U' L</div>
 </div>
 
 <div class="algorithm-container">
     <div class="algorithm">Y-Perm<br>(ULB <-> URF)</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=URF ULF URB ULB|alg=F R U' R' U' R U R' F' R U R' U' R' F R F'"></div>
-    <div class="algorithm">F R U' R' U'<br>R U R' F'<br>R U R' U'<br>R' F R F'</div>
+    <div class="algorithm">F R U' R' U'<br>R U R' F'<br><div class="sexy">R U R' U'</div><div class="sledgehammer">R' F R F'</div></div>
 </div>
 
 <div class="spacer"></div>
