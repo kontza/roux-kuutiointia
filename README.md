@@ -115,6 +115,7 @@ Tässä alivaiheessa ratkaistaan reunat ja keskustat M-viipaleessa käyttäen pe
 
 <div class="spacer"></div>
 # Sekoite
+WCA:n sääntöjen mukaan sekoitus on tehtävä siten, että aloitusvaiheessa valkoinen ylhäällä ja vihreä edessä.
 <div class="algorithm-container">
     <div class="algorithm">Sekoite</div>
     <div id="scramble-algorithm-visual"></div>
