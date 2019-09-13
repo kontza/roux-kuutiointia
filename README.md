@@ -1,4 +1,4 @@
-# Alkusanat
+# Roux-menetelmä
 Omia muistiipanoja Roux-menetelmään liittyen. Pohjana Kian Mansourin nelivaiheinen ohje Roux-menetelmästä aloittelijoille.
 _Vinkki:_ klikkaa/kosketa sivun yläreunan sekoitetta, jolloin se päivittyy.
 
@@ -95,7 +95,7 @@ Tässä alivaiheessa ratkaistaan reunat ja keskustat M-viipaleessa käyttäen pe
 - _Bars_: Ylhäällä ja alhaalla on valmiit suorat, väreinä siis keltainen ja valkoinen.
 - _Columns_: Tämä on kuten edellinen tapaus. Erona on se, että valmiina ovat punainen ja oranssi suora.
 - _Dots_: Tässä alivaiheessa kuutio on muuten ratkaistu, mutta keskilinjan keskipalat eivät ole kohdallaan.
-- _Cycles_: TBD. Jos tässä vaiheessa UF, UB ja DB ovät väärin, on ratkaisuna `M U2 M'`.
+- _Cycles_: Tässä vaiheessa _M_-viipaleessa on yksi lohko ratkaistuna (ks. ao. kuva _Tunnistus_). Kyseiseen lohkoon kuuluu kaksi keskipalaa ja ne yhdistävä reunapala. Ratkaisu on siirtää tämä lohko D-kerrokseen. Jos tämän jälkeen _FU_- ja _BU_-palojen _F_- ja _B_-värit ovat erit, tehdään `U2`, jos värit ovat samat, tehdään `M`, tai `M'`, jotta ne saadaan eriksi ja sitten tehdään `U2`. Seuraavaksi joko _F_- tai _B_-kerroksella on pystypalkki, jonka päädyissä olevien reunapalojen värit ovat erit (ks. ao. kuva _Palkki_). Tämä palkki siirretään _U_-kerrokseen, jonka jälkeen ratkaisu on intuitiivinen.
 
 <div class="algorithm-container">
     <div class="algorithm">Bars</div>
@@ -111,6 +111,17 @@ Tässä alivaiheessa ratkaistaan reunat ja keskustat M-viipaleessa käyttäen pe
     <div class="algorithm">Dots</div>
     <div class="roofpig algorithm-visual" data-config="solved=L R|tweaks=L:L R:R|alg=E2 M E2 M"></div>
     <div class="algorithm">E2 M E2 M</div>
+</div>
+<div class="spacer"></div>
+<div class="algorithm-container">
+    <div class="algorithm">Cycles</div>
+    <div class="roofpig algorithm-visual" data-config="solved=*|tweaks=B:Uf B:U D:F D:uF"></div>
+    <div class="algorithm">Tunnistus</div>
+</div>
+<div class="algorithm-container">
+    <div class="algorithm">Cycles</div>
+    <div class="roofpig algorithm-visual" data-config="solved=*|tweaks=B:Uf D:F D:uF F:Df D:dF"></div>
+    <div class="algorithm">Palkki</div>
 </div>
 
 <div class="spacer"></div>
