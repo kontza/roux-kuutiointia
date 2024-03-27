@@ -15,7 +15,7 @@ Vasemmalle tehdään 1x2x3 lohko. Sininen vasemmalle, punainen eteen. Oikealle t
 <div class="spacer"></div>
 
 # Kolmas vaihe
-Roux-menetelmässä kolmannessa vaiheessa laitetaan yläkerroksen kulmapalot oikeisiin paikkoihin oikeassa asennossa. Sen tekemiseen on olemassa useita algoritmejä, mutta alla olevilla pääsee jo hyvin pitkälle.
+Roux-menetelmässä kolmannessa vaiheessa laitetaan yläkerroksen kulmapalat oikeisiin paikkoihin oikeassa asennossa. Sen tekemiseen on olemassa useita algoritmejä, mutta alla olevilla pääsee jo hyvin pitkälle.
 <div class="algorithm-container">
     <div class="algorithm">U - Headlights</div>
     <div class="roofpig algorithm-visual" data-config="solved=U-|colored=Ufr Ufl Ubl Ubr|alg=F R U R' U' F'"></div>
